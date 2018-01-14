@@ -273,7 +273,7 @@ px      68    160    252    344    436    */
 
 }
 
-@media(max-width:600px) {
+@media(max-width:767px) {
 	nav .logo { padding-top: 8px }
 	nav .menu-toggle { display: inline-block }
 	nav .menu { display: none; clear: both }
