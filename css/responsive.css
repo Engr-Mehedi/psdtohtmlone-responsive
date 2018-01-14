@@ -1,0 +1,371 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+body {
+	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+
+.container{
+	width:980px;
+	display:block;
+	margin:0 auto;
+}
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+.container{
+	width:95%;
+}
+.top_contant .sidebar {
+    float: left;
+    width: 100%;
+}
+.emali_submit .mail_box {
+
+    border-left: none;
+}
+.sidebar .single_sidebar .search_box {
+    border-left: none;
+}
+.top_contant .left_contant {
+
+    width: 100%;
+    
+}
+.top_contant .single_post_wrapper img {
+    width: 95%;
+    height: auto;
+}
+.top_contant .single_post_wrapper {
+
+    text-align: center;
+}
+.top_contant .single_post_wrapper .continue_reading_wr {
+
+    margin-left: -74%;
+}
+.top_contant .single_post_wrapper h1 {
+    font-family: lato;
+    font-size: 26px;
+}
+.top_contant .single_post_wrapper p {
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: justify;
+    margin-right: 5%;
+}
+
+#header .left_logo {
+    font-size: 27px;
+}
+#header .topnav {
+    float: right;
+    margin-top: 31px;
+}
+#header .topnav a {
+    padding: 28px;
+}
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+.container{
+	width:98%;
+}
+
+.top_contant .sidebar {
+    float: left;
+    width: 100%;
+}
+.emali_submit .mail_box {
+
+    border-left: none;
+}
+.sidebar .single_sidebar .search_box {
+    border-left: none;
+}
+.top_contant .left_contant {
+
+    width: 100%;
+    
+}
+.top_contant .single_post_wrapper img {
+    width: 95%;
+    height: auto;
+}
+.top_contant .single_post_wrapper {
+
+    text-align: center;
+}
+.top_contant .single_post_wrapper h1 {
+    font-family: lato;
+    font-size: 12px;
+	margin-left: 0;
+	margin-top: 10px;
+}
+.top_contant .single_post_wrapper p {
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: justify;
+    margin-right: 5%;
+	font-size: 10px;
+}
+.top_contant .single_post_wrapper .continue_reading_wr {
+    font-size: 11px;
+    margin-top: -1%;
+    border: 1px solid #C2C2C2;
+    border-radius: 12px;
+    padding: 2%;
+    display: inline-block;
+    margin-left: -60%;
+}
+#header .left_logo {
+    font-size: 20px;
+}
+#header .topnav {
+    float: right;
+    margin-top: 31px;
+}
+#header .topnav a {
+    padding: 28px;
+}
+
+.sidebar .single_sidebar h2 {
+    border-left: 3px solid #58C93A;
+    text-transform: uppercase;
+    padding: 8px;
+    margin-bottom: 11px;
+}
+.sidebar .single_sidebar .search_box {
+	padding: 10px;
+}
+.emali_submit .mail_box {
+	padding: 10px;
+}
+.emali_submit input[type="submit"] {
+    top: 8px;
+	right: 8px;
+}
+.bottom_content .previous {
+  margin-left: 0px;	
+  font-size: 12px;
+}
+.bottom_content .next {
+  margin-left: 0px;	
+  font-size: 12px;
+}
+.bottom_content {
+	padding: 10px;
+}
+.footer_part p {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+.container{
+	width:98%;
+}
+.top_contant .sidebar {
+    float: left;
+    width: 100%;
+}
+.emali_submit .mail_box {
+
+    border-left: none;
+}
+.sidebar .single_sidebar .search_box {
+    border-left: none;
+}
+.top_contant .left_contant {
+
+    width: 100%;
+    
+}
+.top_contant .single_post_wrapper img {
+    width: 95%;
+    height: auto;
+}
+.top_contant .single_post_wrapper {
+
+    text-align: center;
+}
+.top_contant .single_post_wrapper h1 {
+    font-family: lato;
+    font-size: 12px;
+	margin-left: 0;
+	margin-top: 10px;
+}
+.top_contant .single_post_wrapper p {
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: justify;
+    margin-right: 5%;
+	font-size: 10px;
+}
+.top_contant .single_post_wrapper .continue_reading_wr {
+    font-size: 11px;
+    margin-top: -1%;
+    border: 1px solid #C2C2C2;
+    border-radius: 12px;
+    padding: 2%;
+    display: inline-block;
+    margin-left: -69%;
+}
+#header .left_logo {
+    font-size: 20px;
+}
+#header .topnav {
+    float: right;
+    margin-top: 31px;
+}
+#header .topnav a {
+    padding: 28px;
+}
+
+}
+
+@media(max-width:600px) {
+	nav .logo { padding-top: 8px }
+	nav .menu-toggle { display: inline-block }
+	nav .menu { display: none; clear: both }
+	nav .menu > ul { float: none }
+	nav .menu li { width: 100%; border: 0 }
+	nav .menu li:last-child { margin: 0 0 15px 0 }
+	nav .menu li a,
+	nav .open-submenu {
+		display: block;
+		background: #62b38d;
+		padding: 10px;
+		margin: 2px 0 0 0
+	}
+	nav .menu ul ul {
+		position: static;
+		background: transparent;
+		display:none
+	}
+	nav .menu ul ul a { background: transparent }
+	nav .menu ul ul a:hover { background: #FFBB22 }
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+.container{
+	width:98%;
+}
+.top_contant .sidebar {
+    float: left;
+    width: 100%;
+}
+.emali_submit .mail_box {
+
+    border-left: none;
+}
+.sidebar .single_sidebar .search_box {
+    border-left: none;
+}
+.top_contant .left_contant {
+
+    width: 100%;
+    
+}
+.top_contant .single_post_wrapper img {
+    width: 95%;
+    height: auto;
+}
+.top_contant .single_post_wrapper {
+
+    text-align: center;
+}
+.top_contant .single_post_wrapper h1 {
+    font-family: lato;
+    font-size: 12px;
+	margin-left: 0;
+	margin-top: 10px;
+}
+.top_contant .single_post_wrapper p {
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: justify;
+    margin-right: 5%;
+	font-size: 10px;
+}
+.top_contant .single_post_wrapper .continue_reading_wr {
+    font-size: 11px;
+    margin-top: -1%;
+    border: 1px solid #C2C2C2;
+    border-radius: 12px;
+    padding: 2%;
+    display: inline-block;
+    margin-left: -69%;
+}
+#header .left_logo {
+    font-size: 20px;
+}
+#header .topnav {
+    float: right;
+    margin-top: 31px;
+}
+#header .topnav a {
+    padding: 28px;
+}
+
+	
+}
+

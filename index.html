@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>PSD to HTML & Responsive Web Page</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<link rel="stylesheet" href="css/responsive.css" />
+
+
+</head>
+<body>
+	<!-- header part strat -->
+	<div class="conatiner_full  header_bg">
+		<div class="fix container">
+				<header id="header">
+
+								<nav>
+									<div class="navbar clear">
+										<a href="" class="logo">Nature</a>
+										<div class="menu-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
+										<div class="menu">
+											<ul>
+												<li><a href="">Home</a></li>
+												<li><a href="">About</a></li>
+												<li>
+													<span class="open-submenu">Menu 3 <span class="arrow down"></span></span>
+													<ul>
+														<li><a href="">River</a></li>
+														<li><a href="">Hill</a></li>
+														<li><a href="">Animals</a></li>
+														<li><a href="">Fruits</a></li>
+													</ul>
+												</li>
+												<li><a href="">Contuct</a></li>
+											</ul>
+										</div>
+									</div>
+								</nav>
+
+				</header>
+
+		
+		</div>
+	</div>
+	<!-- heder part end -->
+
+		<!-- content  part  strat-->
+		<div class="conatiner_full container_bg">
+			<div class="fix container">
+					<div class="top_contant">
+						<section class="left_contant">
+								<article class="single_post_wrapper">
+										<img src="images/clipart-pretty-nature-png-7.png" alt="" />
+										<h1>Duis aute irure dolor in henderit in voluptate.</h1>
+										<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipop ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+										<a class="continue_reading_wr"href="#">Continue Reading </a>
+								</article>
+								<article class="single_post_wrapper">
+										<img src="images/best-nature.png" alt="" />
+										<h1>Duis aute irure dolor in henderit in voluptate.</h1>
+										<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipop ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+										<a class="continue_reading_wr"href="#">Continue Reading </a>
+								</article>
+						</section>
+						
+						<div class="sidebar">
+								<aside class="single_sidebar">
+										<h2>About Nature.</h2>
+										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Excepteur sint occaecat sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</aside>
+								<aside class="single_sidebar">
+										<h2>Search.</h2>
+										<input type="text" class="search_box" placeholder="What are you looking for?" />
+								</aside>
+								<aside class="single_sidebar">
+										<h2>Stay Tuned.</h2>
+										<div class="emali_submit">
+												<input type="email" class="mail_box" placeholder="Your Email"/>
+												<input type="submit" id="submitbutton" />
+										</div>
+								</aside>
+						</div>
+					</div>
+					<div class="bottom_content">
+						<a href="#" class="previous"> &larr; Previous</a>
+						<a href="#" class="next">Next &rarr;</a>
+					</div>
+			
+			</div>
+		</div>
+		<!-- content part end -->
+		
+			<div class="conatiner_full footer_bg">
+				<div class="fix container">
+					<footer class="footer_part">
+						<h1>Nature</h1>
+						<p>© 2018 massoftbd.com  -  All Rights Reserved  -  Find more free Templates at Design Solution BD</p>
+						<div class="social_share">
+								<a href="https://www.facebook.com/mhsmileboy" target="_blank"><img src="images/facebook.png" alt="facebook" /></a>
+								<a href="#"><img src="images/linkedin.png" alt="linkedin" /></a>
+								<a href="#"><img src="images/twitter.png" alt="twitter" /></a>
+								<a href="#"><img src="images/youtube.png" alt="youtube" /></a>
+								<a href="#"><img src="images/googleplus.png" alt="googleplus" /></a>
+								<a href="#"><img src="images/github.png" alt="github" /></a>
+						</div>
+					</footer>
+				
+				</div>
+			</div>
+			
+			
+			
+		<!-- script for responsive  -->
+		
+			<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+
+			<script type="text/javascript">
+
+						var menu = $(".menu");
+						$(window).resize(function(){
+							$(".menu-toggle").removeClass("active");
+							if($(window).innerWidth() > 600){
+								menu.show();
+							} else {
+								menu.hide();
+							}
+						});
+						$(".menu-toggle").click(function(){
+							$(this).toggleClass("active");
+							menu.slideToggle();
+						})
+						$(".open-submenu").click(function(){
+							$(this).toggleClass("active");
+							$(this).next("ul").slideToggle();
+							$(this).children(".arrow").toggleClass("down up");
+						});
+
+			</script>	
+
+	<!--
+	<div class="conatiner_full">
+		<div class="fix container">
+		
+		</div>
+	</div>
+	-->
+	<!--start_nivo_slider-->
+
+	
+</body>
+</html>
